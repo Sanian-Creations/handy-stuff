@@ -5,7 +5,7 @@ Collection of some handy stuff.
 Stuff handy for setting up projects
 - `git-hooks` contains several scripts that are useful to set as git hooks, for instance to run before committing. [What are Git hooks?](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)
 
-  You may want to combine a few of these and set them in your [git-init template directory](https://git-scm.com/docs/git-init#_template_directory), so they are always present in new repos and you don't have to think about it.
+  You may want to combine a few of these and set them in your [git-init template directory](https://git-scm.com/docs/git-init#_template_directory), so they are always present in new repos and you don't have to think about it. `git config --global init.templatedir "your/template/dir"`
   
   - `nocheckin` (for pre-commit) Searches files that you are about to commit for the string `nocheckin`, and will error if it finds a match. Handy for marking temporary code you do not want to accidentally include in commits.
   
