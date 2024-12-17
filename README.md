@@ -13,3 +13,6 @@ Stuff handy for setting up projects
 
   - `check_credentials` (for pre-commit) is a sanity check to ensure your git credentials are set locally. Being forced to set username and email for every repo ensures you can commit to both personal and work related repos without accidentally signing the commit with the wrong credentials.
 
+## Dir `common-scripts` 
+Scripts handy for common actions, like cleaning out a repo to ensure a complete rebuild, etc.
+- `rm-obj-bin.sh` (also `.bat` version) Is as script that will remove any directories named `obj` or `bin` from your current working directory and nested directories. This is useful if you want to ensure a complete rebuild.
