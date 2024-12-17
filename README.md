@@ -12,6 +12,8 @@ Stuff handy for setting up projects
     *Note:* This does not look specifically at the parts which are staged, it simply searches through the entire file. So even if the part with "nocheckin" is not staged, this will still halt your commit. You could see that as a flaw, but think about it this way: it also forces you to remove those parts before committing, which means you will likely notice if the program breaks without that temporary code in place, rather than assuming that what you are committing is the solution.
 
   - `check_credentials` (for pre-commit) is a sanity check to ensure your git credentials are set locally. Being forced to set username and email for every repo ensures you can commit to both personal and work related repos without accidentally signing the commit with the wrong credentials.
+  
+- `editorconfig_csharp_visualstudio` Contains a `.editorconfig` file that I use for working on csharp projects. Drop it next to your `.sln` file and you're good to go. It fixes some indentation issues I've had with csproj files, which is nice. It is quite opinionated about the checks on csharp code though, some warnings I have turned into errors.
 
 ## Dir `common-scripts` 
 Scripts handy for common actions, like cleaning out a repo to ensure a complete rebuild, etc.
