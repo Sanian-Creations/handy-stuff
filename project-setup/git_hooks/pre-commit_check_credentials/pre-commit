@@ -1,0 +1,15 @@
+#!/bin/sh
+
+username=$(git config user.name)
+username_expected="put_username_here"
+useremail=$(git config user.email)
+useremail_expected="put_email_here"
+
+if [ "$username" != "$username_expected" ]; then
+    echo "pre-commit hook: user.name should be '$username_expected' but was '$username' (this is a check for me personally to make sure I am not committing with the wrong credentials)"
+	exit 1
+fi
+if [ "$useremail" != "$useremail_expected" ]; then
+    echo "pre-commit hook: user.email should be '$useremail_expected' but was '$useremail' (this is a check for me personally to make sure I am not committing with the wrong credentials)"
+	exit 1
+fi
