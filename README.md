@@ -20,3 +20,14 @@ Stuff handy for setting up projects
 ## Dir `common-scripts` 
 Scripts handy for common actions, like cleaning out a repo to ensure a complete rebuild, etc.
 - `rm-obj-bin.sh` (also `.bat` version) Is as script that will remove any directories named `obj` or `bin` from your current working directory and nested directories. This is useful if you want to ensure a complete rebuild.
+
+## Dir `bookmarks`
+This contains some of the bookmarks that I have found to be useful. They are stored in the NETSCAPE-Bookmark-file format. 
+
+To export your own bookmarks using this format (in Firefox, idk about Chrome) you open the bookmarks manager by right clicking the bookmarks bar. Then in the "Import and Backup" menu you select "Export Bookmarks to HTML...". This will export all your bookmarks to this format. To only export a few ones, it's a bit finnicky... I usually make a backup, then I delete everything I don't want to export, make the export, and then restore the backup again.
+
+For the purposes of keeping the commits to this repository sane, I have made a script which will strip all the unnecessary stuff from the file, such as base64 encodings of the icons, and modification dates. If you want to update a bookmarks file, first run the script on it like so: 
+
+`python strip_bookmarks_file.py "Coding bookmarks.html"`
+
+...only *then* commit it to the repo.
