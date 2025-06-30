@@ -1,7 +1,10 @@
 # Handy Stuff
 Collection of some handy stuff.
 
-## Dir `project-setup` 
+## [`browser_extensions.md`](https://github.com/Sanian-Creations/handy-stuff/blob/main/browser_exensions.md)
+List of browser extensions I find useful. For Firefox/Librewolf.
+
+## Dir [`project-setup`](https://github.com/Sanian-Creations/handy-stuff/tree/main/project-setup)
 Stuff handy for setting up projects
 - `git-hooks` contains several scripts that are useful to set as git hooks, for instance to run before committing. [What are Git hooks?](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)
 
@@ -17,11 +20,11 @@ Stuff handy for setting up projects
   
 - `editorconfig-csharp-visualstudio` Contains a `.editorconfig` file that I use for working on csharp projects. Drop it next to your `.sln` file and you're good to go. It fixes some indentation issues I've had with csproj files, which is nice. It is quite opinionated about the checks on csharp code though, some warnings I have turned into errors.
 
-## Dir `common-scripts` 
+## Dir [`common-scripts`](https://github.com/Sanian-Creations/handy-stuff/tree/main/common-scripts)
 Scripts handy for common actions, like cleaning out a repo to ensure a complete rebuild, etc.
 - `rm-obj-bin.sh` (also `.bat` version) Is as script that will remove any directories named `obj` or `bin` from your current working directory and nested directories. This is useful if you want to ensure a complete rebuild.
 
-## Dir `bookmarks`
+## Dir [`bookmarks`](https://github.com/Sanian-Creations/handy-stuff/tree/main/bookmarks)
 This contains some of the bookmarks that I have found to be useful. They are stored in the NETSCAPE-Bookmark-file format. 
 
 To export your own bookmarks using this format (in Firefox, idk about Chrome) you open the bookmarks manager by right clicking the bookmarks bar. Then in the "Import and Backup" menu you select "Export Bookmarks to HTML...". This will export all your bookmarks to this format. To only export a few ones, it's a bit finnicky... I usually make a backup, then I delete everything I don't want to export, make the export, and then restore the backup again.
