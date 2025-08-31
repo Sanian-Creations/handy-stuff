@@ -1,6 +1,8 @@
 # Handy Stuff
 Collection of some handy stuff.
 
+For Windows debloat, check out https://github.com/ChrisTitusTech/winutil
+
 ## [`browser_extensions.md`](https://github.com/Sanian-Creations/handy-stuff/blob/main/browser_exensions.md)
 List of browser extensions I find useful. For Firefox/Librewolf.
 
