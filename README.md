@@ -36,3 +36,8 @@ For the purposes of keeping the commits to this repository sane, I have made a s
 `python strip_bookmarks_file.py "Coding bookmarks.html"`
 
 ...only *then* commit it to the repo.
+
+## Dir [`windows-tricks`](https://github.com/Sanian-Creations/handy-stuff/tree/main/windows-tricks)
+Some handy tricks I like to use on Windows.
+
+- `context-menu.md` modifying the right-click context menu.
