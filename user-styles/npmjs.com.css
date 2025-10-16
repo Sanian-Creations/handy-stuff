@@ -1,0 +1,21 @@
+@-moz-document url-prefix("https://www.npmjs.com/") {
+pre, code {
+    font-family: monospace;
+    tab-size: 4;
+    -moz-tab-size: 4;
+    line-height: 1.3em !important;
+}
+
+/* make it so that the highlighting spans do not have strange padding that ruins the monospace font */
+:is(pre, code) span:not(.linenumber) {
+    padding: 0 !important;
+}
+:is(pre, code) span.linenumber {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+em {
+    padding-right: .2ch;
+}
+}

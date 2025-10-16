@@ -41,3 +41,6 @@ For the purposes of keeping the commits to this repository sane, I have made a s
 Some handy tricks I like to use on Windows.
 
 - `context-menu.md` modifying the right-click context menu.
+
+## Dir [`user-styles`](https://github.com/Sanian-Creations/handy-stuff/tree/main/user-styles)
+Some user styles that I apply to webpages so that they annoy me less.
