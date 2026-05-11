@@ -3,6 +3,18 @@ Collection of some handy stuff.
 
 For Windows debloat, check out https://github.com/ChrisTitusTech/winutil
 
+## Good software
+- PDF editing (merging, rotating pages, splitting etc.): [PDFSam](https://pdfsam.org/pdfsam-basic/)
+- PDF viewer: [SumatraPDF](https://www.sumatrapdfreader.org/)
+- Image Viewer: [IrfanView](https://www.irfanview.com/)
+- File explorer better than windows Explorer: [File Pilot](https://filepilot.tech/)
+- Password manager: [Keepass](https://keepass.info/)
+- Disk/data encryption: [VeraCrypt](https://veracrypt.io)
+- File content search (for Windows): [BareGrep](https://www.baremetalsoft.com/baregrep/)
+- Disk usage inspector: [Wiztree](https://www.diskanalyzer.com) / [WinDirStat](https://windirstat.net/) (I prefer Wiztree these days cuz its faster, but modern WinDirStat is not as slow as it used to be.)
+- Uninstall tool: [Revo Uninstaller](https://www.revouninstaller.com/)
+- Git manager: [Fork](https://git-fork.com/) (Win/Mac), [SourceGit](https://sourcegit-scm.github.io/) (Win/Mac/Linux)
+
 ## [`browser_extensions.md`](https://github.com/Sanian-Creations/handy-stuff/blob/main/browser_exensions.md)
 List of browser extensions I find useful. For Firefox/Librewolf.
 
